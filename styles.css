@@ -2,17 +2,39 @@ body{
     height: 100vh;
     margin: 0px;
     display: flex;
-flex-direction: column;
-justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
 }
-ul{margin: 0px;
-padding: 0px}
-
-.top{background-color: #1F2937;}
-.ozys img{ max-width: 400px;
+/* HEADER MAIN start */
+ul{
+    margin: 0px;
+    padding: 0px;}
+.top{
+        background-color: #1F2937;}
+.hero, .header {
+    color: #F9FAF8; 
+}
+.header h1{ font-size: 24px;
+color:#F9FAF8}
+.hero h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.hero p, .links{
+        font-size: 18px;
+        color:#E5E7EB;
+    }
+.signup-top{background-color: #3882F6;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100px;}
+.ozys img{ 
+    max-width: 400px;
     height: auto;}
-
-
+/* HEADER MAIN END */
+/* Info start */
 .card-container{
     display: flex;
     flex-wrap: wrap;
@@ -23,13 +45,56 @@ padding: 0px}
     margin: 16px;
 }
 div .kvadratas{
-    border: 5px solid royalblue;
+    border: 5px solid #3882F6;
 }
+.card p{
+    font-size: 18px;
+    color: #1F2937;
+}
+.info h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+/* Info end */
+/* Quote start */
 .citata{
     background-color: #e5e7eb;
+    display: flex;
 }
-.prisijunk{background-color:#3882F6 ;}
+.quete{font-size: 36px;
+    font-family: italic;
+    font-weight: 200;}
+    .quoter{
+        font-weight: 800;
+        font-size: 18px;
+    }
 
+/* Quote end */
+/* Prisijunk prie musu START */
+.prisijunk{
+    background-color:#3882F6;
+    margin: 80px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;}
+    .laikas h1{font-size: 18px;}
+    .laikas p{font-size: 15px;
+    font-weight: bold;}
+    .signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border: 1px solid white;
+}
+
+
+
+
+
+/* Footer START */
 .footer{
     background-color:#1F2937; ;
 }
