@@ -96,5 +96,7 @@ div .kvadratas{
 
 /* Footer START */
 .footer{
-    background-color:#1F2937; ;
-}
+    background-color:#1F2937;}
+.copyright{font-size: 18px;
+color: #E5E7EB;
+text-align: center;}
